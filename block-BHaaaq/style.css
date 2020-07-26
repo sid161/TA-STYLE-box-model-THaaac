@@ -1,0 +1,119 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.header{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 24px 20px;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 40px;
+    border: 3px solid black;
+    display: inline-block
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 40px;
+    border: 3px double black;
+    display: inline-block
+    
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 40px;
+    border: 3px dashed black;
+    display: inline-block
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 40px;
+    border: 3px dotted black;
+    display: inline-block
+}
+
+.box5{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 40px;
+    border: 3px none black;
+    display: inline-block
+}
+p{
+    width: 400px;
+    font-size: 20px;
+    background-color: chocolate;
+    color: white;
+    padding: 24px;
+    margin: 10px;
+    border-top: 10px solid blue;
+    border-right: 10px solid grey;
+    border-bottom: 10px solid yellow;
+    border-left: 10px solid green;
+}
+.paragraphbox{
+    background-color: violet;
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+}
