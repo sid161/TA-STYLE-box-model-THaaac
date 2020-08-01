@@ -47,7 +47,7 @@ table {
     font-size: 28px;
     margin: 24px 20px;
 }
-.box1{
+.box{
     height: 100px;
     width: 100px;
     background-color: brown;
@@ -57,47 +57,20 @@ table {
     border: 3px solid black;
     display: inline-block
 }
-.box2{
-    height: 100px;
-    width: 100px;
-    background-color: brown;
-    padding: 10px;
-    margin-top: 50px;
-    margin-left: 40px;
-    border: 3px double black;
-    display: inline-block
-    
+.solid{
+    border-style: solid;
 }
-.box3{
-    height: 100px;
-    width: 100px;
-    background-color: brown;
-    padding: 10px;
-    margin-top: 50px;
-    margin-left: 40px;
-    border: 3px dashed black;
-    display: inline-block
+.dashed{
+    border-style: dashed;
 }
-.box4{
-    height: 100px;
-    width: 100px;
-    background-color: brown;
-    padding: 10px;
-    margin-top: 50px;
-    margin-left: 40px;
-    border: 3px dotted black;
-    display: inline-block
+.dotted{
+    border-style: dotted;
 }
-
-.box5{
-    height: 100px;
-    width: 100px;
-    background-color: brown;
-    padding: 10px;
-    margin-top: 50px;
-    margin-left: 40px;
-    border: 3px none black;
-    display: inline-block
+.double{
+    border-style: double;
+}
+.no-border{
+    border-style: none;
 }
 p{
     width: 400px;
