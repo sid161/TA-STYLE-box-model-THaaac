@@ -13,3 +13,63 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper.
 --->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>assignment6</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1 class="header">The Box Model, Box-sizing & Box-Shadow</h1>
+        </header>
+        <hr>
+        <main>
+            <section>
+                <h2>Exercise1</h2>
+                <div class="box"></div>
+                <div class="circlediv">
+                <span class="circle content"></span>
+                <span>content</span>
+                <span class="circle padding"></span>
+                <span>padding</span>
+                <span class="circle border"></span>
+                <span>border</span>
+                <span class="circle margin"></span>
+                <span>margin</span>
+                
+                 </div>
+            </section>
+            
+              <hr>
+              <section>
+                  <h2>Exercise 2</h2>
+                  <p> No border on these boxes</p>
+                  <div class="parent-container">
+                  <div class="child-container"></div>
+                  <div class="child-container"></div>
+                  <div class="child-container"></div>
+                  </div>
+                  <hr>
+                  <p> No border on these boxes</p>
+                  <div class="parent-container">
+                    <div class="child-container border"></div>
+                    <div class="child-container border"></div>
+                    <div class="child-container border"></div>
+                    </div>
+                    <hr>
+                    <p>1px border on these boxes but they are in same line</p>
+                    <div class="parent-container">
+                        <div class="child-container border child-box"></div>
+                        <div class="child-container border child-box"></div>
+                        <div class="child-container border child-box"></div>
+                        </div>
+
+              </section>
+        </main>
+
+    </body>
+</html>
